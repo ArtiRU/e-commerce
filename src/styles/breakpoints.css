@@ -1,0 +1,111 @@
+/* Large desktops and laptops */
+@media (max-width: 1366px) {
+    .flex-container  {
+        flex-direction: column !important;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .flex-container  {
+        flex-direction: column !important;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-wrapper {
+        justify-content: center;
+    }
+    .flex-container  {
+        flex-direction: column !important;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .card-wrapper {
+        justify-content: center;
+    }
+    .flex-container  {
+        flex-direction: column !important;
+    }
+    .cart {
+        min-width: 380px;
+        min-height: 220px;
+    }
+
+    .cart-title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .ant-layout-header {
+        height: 48px;
+        line-height: 48px;
+    }
+    .card {
+        width: 200px;
+        min-height: 330px;
+    }
+    .card-image {
+        width: 150px;
+        height: 120px;
+    }
+    .content {
+        padding: 0 30px;
+    }
+    .flex-container  {
+        flex-direction: column !important;
+    }
+
+    .cart {
+        min-width: 270px;
+        min-height: 220px;
+    }
+
+    .cart-title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+    .ant-layout-header {
+        padding: 0 30px !important;
+        height: 32px !important;
+        line-height: 32px !important;
+    }
+    .card {
+        width: 150px;
+        min-height: 300px;
+    }
+    .card-image {
+        width: 100px;
+        height: 120px;
+    }
+
+    .card-width {
+        width: 300px;
+    }
+    .content {
+        padding: 0 10px;
+    }
+    .flex-container  {
+        flex-direction: column !important;
+    }
+
+    .cart {
+        min-width: 200px;
+        min-height: 220px;
+    }
+
+    .cart-title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
