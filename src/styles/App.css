@@ -123,3 +123,33 @@
 .total {
     font-size: 20px;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #001529;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.header div {
+    cursor: pointer;
+}
